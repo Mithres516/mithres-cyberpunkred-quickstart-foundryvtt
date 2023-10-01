@@ -1,66 +1,66 @@
 {
-  "id": "cyberpunk-red-quickstart",
-  "title": "Cyberpunk Red: Quickstart",
-  "version": "0.1.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "description": "Quickstart compendium for Cyberpunk RED, it has the base manual NPCs, journal entries about places and people of NC (from base manual and wiki), map of NightCity with location added with journal entries.\n\nThanks to https://www.reddit.com/user/-B-B-F-I-I-I-/ for the npcs tokens.\n\nAdditionally the material present is from Cyberpunk 2077 by C.D. Projekt RED S.A. and I claim no ownership to the contents herein.\n\nThanks to https://www.reddit.com/user/writerscthulhu/ for the NC map.",
-  "authors": [
-    {
-      "name": "Mithres",
-      "discord": "mithres"
-	  "url":"https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt"
-    }
-  ],
-  "packFolders": [
-		{
-			"name": "Cyberpunk Red: Quickstart",
-			"sorting": "m",
-			"packs": [
-				"night-city-map"
-				"journalentries-of-nc",
-				"cyberpunk-red-base-npcs",
-			]
-		}
-	],
-  "packs": [
-    {
-      "name": "journalentries-of-nc",
-      "label": "JournalEntries of NC",
-      "path": "packs/journalentries-of-nc",
-      "type": "JournalEntry",
-      "system": "cyberpunk-red-core",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "authors": [
+        {
+            "discord": "mithres",
+            "name": "Mithres",
+            "url": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt"
+        }
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
     },
-    {
-      "name": "cyberpunk-red-base-npcs",
-      "label": "Cyberpunk RED BASE NPCs",
-      "path": "packs/cyberpunk-red-base-npcs",
-      "type": "Actor",
-      "system": "cyberpunk-red-core",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "night-city-map",
-      "label": "Night City Map",
-      "path": "packs/night-city-map",
-      "type": "Scene",
-      "system": "cyberpunk-red-core",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "url": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt",
-  "manifest": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt/releases/latest/download/module.json",
-  "download": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt/releases/latest/download/module.zip"
+    "description": "Quickstart compendium for Cyberpunk RED, it has the base manual NPCs, journal entries about places and people of NC (from base manual and wiki), map of NightCity with location added with journal entries.",
+    "download": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt/releases/latest/download/module.zip",
+    "id": "cyberpunk-red-quickstart",
+    "manifest": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt/releases/latest/download/module.json",
+    "packFolders": [
+        {
+            "name": "Cyberpunk Red: Quickstart",
+            "packs": [
+                "night-city-map",
+                "journalentries-of-nc",
+                "cyberpunk-red-base-npcs"
+            ],
+            "sorting": "m"
+        }
+    ],
+    "packs": [
+        {
+            "label": "JournalEntries of NC",
+            "name": "journalentries-of-nc",
+            "ownership": {
+                "ASSISTANT": "OWNER",
+                "PLAYER": "OBSERVER"
+            },
+            "path": "packs/journalentries-of-nc",
+            "system": "cyberpunk-red-core",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "Cyberpunk RED BASE NPCs",
+            "name": "cyberpunk-red-base-npcs",
+            "ownership": {
+                "ASSISTANT": "OWNER",
+                "PLAYER": "OBSERVER"
+            },
+            "path": "packs/cyberpunk-red-base-npcs",
+            "system": "cyberpunk-red-core",
+            "type": "Actor"
+        },
+        {
+            "label": "Night City Map",
+            "name": "night-city-map",
+            "ownership": {
+                "ASSISTANT": "OWNER",
+                "PLAYER": "OBSERVER"
+            },
+            "path": "packs/night-city-map",
+            "system": "cyberpunk-red-core",
+            "type": "Scene"
+        }
+    ],
+    "title": "Cyberpunk Red: Quickstart",
+    "url": "https://github.com/Mithres516/mithres-cyberpunkred-quickstart-foundryvtt",
+    "version": "0.1.0"
 }
