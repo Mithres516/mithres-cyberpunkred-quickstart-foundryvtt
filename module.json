@@ -1,0 +1,62 @@
+{
+  "id": "cyberpunk-red-quickstart",
+  "title": "Cyberpunk Red: Quickstart",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Quickstart compendium for Cyberpunk RED, it has the base manual NPCs, journal entries about places and people of NC (from base manual and wiki), map of NightCity with location added with journal entries.\n\nThanks to https://www.reddit.com/user/-B-B-F-I-I-I-/ for the npcs tokens.\n\nAdditionally the material present is from Cyberpunk 2077 by C.D. Projekt RED S.A. and I claim no ownership to the contents herein, only bare creatorship of the images present.\n\nThanks to https://www.reddit.com/user/writerscthulhu/ for the NC map.",
+  "authors": [
+    {
+      "name": "Mithres",
+      "discord": "mithres"
+    }
+  ],
+  "packFolders": [
+		{
+			"name": "Cyberpunk Red: Quickstart",
+			"sorting": "m",
+			"packs": [
+				"night-city-map"
+				"journalentries-of-nc",
+				"cyberpunk-red-base-npcs",
+			]
+		}
+	],
+  "packs": [
+    {
+      "name": "journalentries-of-nc",
+      "label": "JournalEntries of NC",
+      "path": "packs/journalentries-of-nc",
+      "type": "JournalEntry",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cyberpunk-red-base-npcs",
+      "label": "Cyberpunk RED BASE NPCs",
+      "path": "packs/cyberpunk-red-base-npcs",
+      "type": "Actor",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "night-city-map",
+      "label": "Night City Map",
+      "path": "packs/night-city-map",
+      "type": "Scene",
+      "system": "cyberpunk-red-core",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
